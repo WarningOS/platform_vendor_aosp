@@ -33,7 +33,7 @@ endif
 
 # Fix Google dialer
 PRODUCT_COPY_FILES += \
-    vendor/statix/prebuilt/common/etc/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+    vendor/aosp/prebuilt/common/etc/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
 
 # Packages
 include vendor/aosp/config/packages.mk
