@@ -23,7 +23,7 @@ function breakfast()
     STATIX_DEVICES_ONLY="true"
     unset LUNCH_MENU_CHOICES
     add_lunch_combo full-eng
-    for f in `/bin/ls vendor/statix/vendorsetup.sh 2> /dev/null`
+    for f in `/bin/ls vendor/aosp/vendorsetup.sh 2> /dev/null`
         do
             echo "including $f"
             . $f
