@@ -1,4 +1,3 @@
-
 # Include librsjni explicitly to workaround GMS issue
 PRODUCT_PACKAGES += \
     librsjni
@@ -9,4 +8,3 @@ PRODUCT_PACKAGES += \
     Turbo \
     turbo.xml \
     privapp-permissions-turbo.xml
-
